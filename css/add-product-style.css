@@ -1,0 +1,110 @@
+body{
+    padding: 30px;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.rectangle{
+    background-color: black;
+    width: 100%;
+    border: 2px;
+    height: 2px;
+}
+#sku_alert{
+    color: rgb(223, 25, 25);
+    font-size: 14px;
+    margin-left: 100px;
+    margin-bottom: 10px;   
+    margin-top: -6px; 
+    display: none;
+}
+.mb-3{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:flex-start;
+}
+.form-label{
+    width: 100px;
+}
+.form-control{
+    width: 270px;
+}
+.add_container{
+    margin: 30px 0 0 20px;
+}
+.buttons{
+    position: absolute;
+    top: 39px;
+    right: 30px;
+}
+.dropdown{
+    margin-left: 100px;
+    padding: unset;
+}
+.dropdown-toggle{
+    width: 150px;
+}
+.dvd{
+    display: none;
+    margin-top: 10px;
+    width: 250px;
+}
+.dvd input{
+    width: 150px;
+}
+.book{
+    margin-top: 10px;
+    display: none;
+    width: 250px;
+}
+.book input{
+    width: 150px;
+}
+.dimension{
+    margin-top: 10px;
+    display: none;
+    flex-direction: column;
+    width: 250px;
+}
+.height{
+    width: 250px;
+}
+.height input{
+    width: 150px;
+}.width{
+    width: 250px;
+}
+.width input{
+    width: 150px;
+}.length{
+    width: 250px;
+}
+.length input{
+    width: 150px;
+}
+#all_fields_alert{
+    color: rgb(223, 25, 25);
+    font-size: 15px;
+    display: none;
+    margin-left: 120px;
+    margin-top: 10px;
+}
+.footer_line{
+    width: 95%;
+    height: 2px;
+    border: 2px;
+    background-color: black;
+    position: absolute;
+    bottom: 60px;
+}
+footer{
+    position: absolute;
+    bottom: 0;
+    align-items: center;
+    padding-left: 40%;
+    margin-top: 30px;
+}

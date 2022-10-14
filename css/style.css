@@ -1,0 +1,68 @@
+body{
+    padding: 30px;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.rectangle{
+    background-color: black;
+    width: 100%;
+    border: 2px;
+    height: 2px;
+}
+.products-list{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    padding-left: 0;
+}
+.product{
+    position: relative;
+    padding-top: 30px;
+    border: 2px solid black;
+    width: 200px;
+    height: 160px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 6px;
+    margin: 20px;
+}
+.product p{
+    font-weight: 500;
+}
+.delete-checkbox{
+    position: absolute;
+    left: 12px;
+    top: 15px;
+}
+.size{
+    font-size: 15px;
+}
+.weight{
+    margin-top: -15px;
+    font-size: 15px;
+}
+.dimension{
+    margin-top: -15px;
+    font-size: 15px;
+}
+.buttons{
+    position: absolute;
+    top: 39px;
+    right: 30px;
+}
+.footer_line{
+    height: 2px;
+    border: 2px;
+    background-color: black;
+}
+footer{
+    align-items: center;
+    padding-left: 40%;
+    margin-top: 30px;
+}
