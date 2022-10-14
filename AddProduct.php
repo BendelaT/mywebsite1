@@ -118,10 +118,12 @@ $conn->close();
             <div id="dvd" class="mb-3 dvd">
                 <label class="form-label">Size (MB)</label>
                 <input type="number" id="size" name="size" type="number" class="form-control">
+                <p>Please, provide size in MB</p>
             </div>
             <div id="book" class="mb-3 book">
                 <label class="form-label">Weight (KG)</label>
                 <input type="number" id="weight" name="weight" type="number" class="form-control">
+                <p>Please, provide weight in KG</p>
             </div>
             <div id="furniture" class="mb-3 dimension">
                 <div class=" mb-3 height">
@@ -136,6 +138,7 @@ $conn->close();
                     <label class="form-label">Length (CM)</label>
                     <input type="number" id="length" name="length" type="number" class="form-control">
                 </div>
+                <p>Please, provide dimensions in cm</p>
             </div>
             <div class="buttons">
                 <button name="submit" class="btn btn-primary">Save</button>
